@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="CSS/trouver.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Trouver Joueur</title>
+</head>
+
+<body>
+	<div class="container">
+		<div class="algeria-logo"></div>
+		<div class="algeria-title">Algeria</div>
+		<div class="inputs">
+			<form class="search" action="scripts_php/trouver.php" method="post">
+				<label>Trouver Joueur</label>
+				<select name="cat">
+					<option value="Num">Num</option>
+					<option value="Poste">Poste</option>
+					<option value="Nom">Nom</option>
+					<option value="Age">Age</option>
+					<option value="Selection">Selection</option>
+					<option value="Buts">Buts</option>
+					<option value="Club">Club</option>
+					<option value="Annee">Annee</option>
+				</select>
+				<input type="text" placeholder="Search Player" name="Search">
+				<button type="submit" name="src2" class="fa fa-search"></button>
+				<button type="button"  onclick="location.href='1_homepage.html'" id="bt2">Retour</button>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

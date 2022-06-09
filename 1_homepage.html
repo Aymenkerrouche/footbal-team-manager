@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="CSS/homepage.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Home Page</title>
+</head>
+<body>
+	<header>
+		<div class="wrapper">
+			<h1>Equipe National <span class="green">.</span></h1>
+			<h3>1 2 3 Viva l'Algérie </h3>
+			<nav>
+				<ul>
+					<li> <a href="mailto:aymenkerrouche00@gmail.com">Contact</a></li>
+					<li> <a href="scripts_php/afficher.php">Joueurs</a> </li>
+					<li> <a href="#options">Options</a></li>
+					<li> <a href="#main-image">Home</a> </li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<section id="main-image">
+		<div class="wrapper">
+			<h2>Control your<br><strong>Team</strong> </h2>
+			<form class="search" action="scripts_php/trouverhomepage.php" method="post">
+				<input type="text" placeholder="Search Player" name="Search">
+				<button type="submit" name="searchhomepage"><i class="fa fa-search"></i></button>
+			</form>
+		</div>
+	</section>
+<div id="options">
+	<h2>OPTIONS</h2>
+</div>
+<div class="grid-container">
+  <div><a href="2_ajouter.html">Ajouter un joueur à partir d’un formulaire</a></div>
+  <div><a href="3_AjouterTxt.html">Ajouter un joueur à partir du fichier texte</a></div>
+  <div><a href="scripts_php/afficher.php">Afficher la liste de tous les joueurs</a></div>
+  <div><a href="4_trouver.html">Trouver des joueurs selon des critères</a></div>
+  <div><a href="5_supprimer.html">Supprimer un joueur</a></div> 
+</div>
+<div class="clear"></div>
+
+<section id="contact">
+		<div class="wrapper">
+			<h3>Contact us</h3>
+			<p> For any suggestions or modifications, please leave an email and we will contact you</p>
+			
+			<form>
+				<label>Full name</label>
+				<input type="text" placeholder="Your name">
+
+				<a href="mailto:aymenkerrouche00@gmail.com" class="button-3" >Send email</a>
+				<!-- <a type="text" placeholder="Your E-mail" href="mailto:aymenkerrouche00@gmail.com" class="button-3"></a>  -->
+			</form>
+		</div>
+	</section>
+
+	<footer id="footer">
+		<div class="wrapper">
+			<h1>Joueurs D'Equipe Nationale <span class="green">.</span></h1>
+		</div>
+	</footer>
+
+</body>
+</html>

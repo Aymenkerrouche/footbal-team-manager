@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+
+body{
+  margin: 0;
+  background: #ecf0f3;
+  display: grid;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  place-items: center;
+  font-family: poppins;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
+  padding: 20px;
+  box-sizing: border-box;
+  background: #ecf0f3;
+  box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+  margin-bottom: 30px;
+}
+
+
+.algeria-logo {
+  height: 100px;
+  width: 100px;
+  background: url("algeria-circular.png");
+  margin: auto;
+  border-radius: 50%;
+  box-sizing: border-box;
+  box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
+}
+
+.algeria-title {
+  margin-top: 10px;
+  font-weight: 900;
+  font-size: 1.8rem;
+  color: green;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+table{
+  border: 2px solid green;
+  border-radius: 30px;
+  display: flex;
+  padding: 10px;
+}
+
+tr{
+  display: block;
+  width: 100%;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+th,td {
+  background: #ecf0f3;
+  padding: 10px;
+  height: 50px;
+  font-size: 14px;
+  border-radius: 20px;
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+  width: 70px;
+}

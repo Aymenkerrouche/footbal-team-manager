@@ -1,0 +1,35 @@
+Joueurs	 	 
+Num | Poste | Nom | Age | Selection | Buts | Club | Annee
+Gardiens	
+01 | G | Alexandre Oukidja | 33 | 6  | 0 | FC Metz | 2019
+23 | G | Raïs M'Bolhi | 35 | 83 | 0 | Ettifaq FC | 2010
+42 | G | Moustapha Zeghba | 31 | 1 | 0 | Damac FC | 2018
+
+Défenseurs	
+02 | D | Aïssa Mandi | 30 | 68 | 3 | Villarreal CF | 2014
+03 | D | Mehdi Tahrat | 31 | 13 | 0 | Al-Gharafa SC |2015
+04 | D | Djamel Benlamri | 31 | 25 | 0 | Qatar SC | 2018
+05 | D | Ahmed Touba | 23 | 2 | 0 | RKC Waalwijk | 2021
+15 | D | Ayoub Abdellaoui | 28 | 9 | 0 | Ettifaq FC | 2017
+16 | D | Houcine Benayada | 29 | 4 | 0 | ES Sahel | 2021
+17 | D | Abdelkader Bedrane | 29 | 7 | 0 | ES Tunis | 2018
+18 | D | Réda Halaïmia | 25 | 6 | 0 | K Beerschot VA | 2018
+21 | D | Ramy Bensebaini | 26 | 41 | 5 | Borussia M’gladbach | 2017
+20 | D | Youcef Atal | 25 | 22 | 1 | OGC Nice | 2017
+
+Milieux	
+06 | M | Ramiz Zerrouki | 23 | 9 | 1 | FC Twente | 2021
+07 | M | Riyad Mahrez | 30 | 70 | 26 | Manchester City | 2014
+08 | M | Youcef Belaïli | 29 | 29 | 6 | Qatar SC | 2015
+10 | M | Sofiane Feghouli | 31 | 73 | 19 | Galatasaray | 2012
+11 | M | Saïd Benrahma | 26 | 14 | 1 | West Ham United | 2015
+12 | M | Haris Belkebla | 27 | 9 | 0 | Stade brestois | 2019
+19 | M | Adem Zorgane | 21 | 4 | 0 | Charleroi SC | 2021
+20 | M | Farid Boulaya | 28 | 4 | 1 | FC Metz | 2020
+22 | M | Ismaël Bennacer | 24 | 31 | 2 | AC Milan | 2016
+27 | M | Adam Ounas | 25 | 15 | 4 | SSC Naples | 2017
+
+Attaquants	
+09 | A | Baghdad Bounedjah | 30 | 48 | 22 | Al Sadd SC | 2014
+13 | A | Islam Slimani | 33 | 79 | 38 | Olympique lyonnais | 2012
+14 | A | Mohamed El Amine Amoura | 21 | 2 | 0 | FC Lugano | 2021

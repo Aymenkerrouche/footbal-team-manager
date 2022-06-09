@@ -1,0 +1,120 @@
+
+/*Formilaire*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+
+body{
+  margin: 0;
+  background: #ecf0f3;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  place-items: center;
+  font-family: poppins;
+}
+
+.container {
+  position: relative;
+  width: 400px;
+  height: 1000px;
+  border-radius: 20px;
+  padding: 40px;
+  box-sizing: border-box;
+  background: #ecf0f3;
+  box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+}
+
+.algeria-logo {
+  height: 100px;
+  width: 100px;
+  background: url("algeria-circular.png");
+  margin: auto;
+  border-radius: 50%;
+  box-sizing: border-box;
+  box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
+}
+
+.algeria-title {
+  margin-top: 10px;
+  font-weight: 900;
+  font-size: 1.8rem;
+  color: green;
+  letter-spacing: 1px;
+}
+
+.inputs {
+  text-align: left;
+  margin-top: 30px;
+}
+
+label, input, button, select{
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+select{
+  padding: 10px;
+  margin-top: 10px;
+
+}
+
+label {
+  margin-bottom: 4px;
+  margin-top: 4px;
+
+}
+
+label:nth-of-type(2) {
+  margin-top: 12px;
+}
+
+input::placeholder {
+  color: gray;
+}
+
+
+input,select{
+  background: #ecf0f3;
+  padding: 10px;
+  padding-left: 20px;
+  height: 50px;
+  font-size: 14px;
+  border-radius: 50px;
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+
+
+button {
+  margin-top: 30px;
+  background: #66bb6a;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 900;
+  box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+  transition: 0.5s;
+  width: 150px;
+  display: inline-block;
+  
+}
+
+button:hover {
+  background-color: #32cd32;
+  box-shadow: 0px 15px 20px rgba(46, 235, 157, 0.4);
+  color: #fff;
+  transform: translateY(-5px);
+}
+
+.bt2{
+  background-color: #E04C4C;
+  float: right;
+}
+
+.bt2:hover {
+  background: red;
+  box-shadow:  0px 15px 20px  rgba(255, 0, 0, 0.4);
+}
